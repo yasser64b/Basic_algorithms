@@ -1,5 +1,5 @@
 def insertion_sort(list_a):
-
+    ''' this function sorts a list using insertion algorithm'''
     indexing_length=range(1,len(list_a))
     for i in indexing_length:
         value_to_sort=list_a[i]
