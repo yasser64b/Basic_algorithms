@@ -1,4 +1,5 @@
 def bubbleSort(list_a):
+    ''' this function sorts a list using bubble algorithm'''
     indexing_length=len(list_a)-1
     sorted= False
     while not sorted: 
