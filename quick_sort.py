@@ -1,4 +1,5 @@
 def quick_sort(sequence):
+    ''' this function sorts a list using in a quickest way'''
     length=len(sequence)
     if length <=1:
         return sequence
