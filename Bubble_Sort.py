@@ -8,5 +8,7 @@ def bubbleSort(list_a):
             if list_a[i]> list_a[i+1]:
                 sorted=False
                 list_a[i], list_a[i+1] = list_a[i+1] , list_a[i] 
-        
     return list_a
+
+
+bubbleSort([7,3,1,6,98,3,6,5,96,9,1,0,-2,-1])
