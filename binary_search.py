@@ -1,4 +1,5 @@
 from typing import Sequence
+import time
 
 def binary_search(sequence, item):
     ''' This function return the index of item in the sequence 
@@ -22,3 +23,5 @@ def binary_search(sequence, item):
 Sequence_a=[1,2,3,4,5,6,7,8]
 item= 2
 print(binary_search(Sequence_a, item))
+
+print('Today is :', time.time() )
